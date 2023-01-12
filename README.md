@@ -15,13 +15,13 @@
 
 
 
-### 난이도 미책정
+### :question: 난이도 미책정
 + D - [후보 추천하기](https://www.acmicpc.net/problem/1713)
 + H - [N-Queen](https://www.acmicpc.net/problem/9663) (:star:)
   + 동일한 문제가 2개 있기는 하지만 아마 위 문제일 듯
 + L - [치킨 배달](https://www.acmicpc.net/problem/15686)
 
-### 확인해 볼 것
+### :grey_question: 확인해 볼 것
 + B - 탈출 : 동일한 제목의 문제 3개
 + E - 게임 : 동일한 제목의 문제 많음
 + F - 교환 : 동일한 제목의 문제 2개
