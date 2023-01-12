@@ -2,16 +2,16 @@
 
 ## 풀어볼 문제들
 
-### 난이도 (下)
+### :watermelon: 난이도 (下)
 + C - [한수](https://www.acmicpc.net/problem/1065)
 + G - [수 찾기](https://www.acmicpc.net/problem/1920)
 + K - [단어 수학](https://www.acmicpc.net/problem/1339)
 
-### 난이도 (中)
+### :evergreen_tree: 난이도 (中)
 + A - [고스택](https://www.acmicpc.net/problem/3425)
 
 
-### 난이도 (上)
+### :fire: 난이도 (上)
 
 
 
