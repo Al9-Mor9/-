@@ -21,5 +21,5 @@
 ### :question: 난이도 미책정
 
 + L - (G5) [치킨 배달](https://www.acmicpc.net/problem/15686)
-+ F - [교환](https://www.acmicpc.net/problem/1039)
-+ J - [스도쿠](https://www.acmicpc.net/problem/2580)
++ F - (G3) [교환](https://www.acmicpc.net/problem/1039)
++ J - (G4) [스도쿠](https://www.acmicpc.net/problem/2580)
