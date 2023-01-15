@@ -17,8 +17,5 @@
 + A - (G3) [고스택](https://www.acmicpc.net/problem/3425)
 + B - (G4) [탈출](https://www.acmicpc.net/problem/3055)
 + E - (G2) [게임](https://www.acmicpc.net/problem/1103)
-+ I - (G5) [암호 만들기](https://www.acmicpc.net/problem/1759)
-
-### :question: 난이도 미책정
-
 + F - (G3) [교환](https://www.acmicpc.net/problem/1039)
++ I - (G5) [암호 만들기](https://www.acmicpc.net/problem/1759)
