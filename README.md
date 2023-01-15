@@ -11,6 +11,7 @@
 + D - (S1) [후보 추천하기](https://www.acmicpc.net/problem/1713)
 + H - (G4) [N-Queen](https://www.acmicpc.net/problem/9663) (:star:)
 + J - (G4) [스도쿠](https://www.acmicpc.net/problem/2580) (:star:)
++ L - (G5) [치킨 배달](https://www.acmicpc.net/problem/15686)
 
 ### :fire: 난이도 (上)
 + A - (G3) [고스택](https://www.acmicpc.net/problem/3425)
@@ -20,5 +21,4 @@
 
 ### :question: 난이도 미책정
 
-+ L - (G5) [치킨 배달](https://www.acmicpc.net/problem/15686)
 + F - (G3) [교환](https://www.acmicpc.net/problem/1039)
