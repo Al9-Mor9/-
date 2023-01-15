@@ -9,17 +9,17 @@
 
 
 ### :evergreen_tree: 난이도 (中)
-+ A - (G3) [고스택](https://www.acmicpc.net/problem/3425)
-
++ D - (S1) [후보 추천하기](https://www.acmicpc.net/problem/1713)
 
 ### :fire: 난이도 (上)
++ A - (G3) [고스택](https://www.acmicpc.net/problem/3425)
++ H - (G4) [N-Queen](https://www.acmicpc.net/problem/9663) (:star:)
+
 
 
 
 ### :question: 난이도 미책정
-+ D - (S1) [후보 추천하기](https://www.acmicpc.net/problem/1713)
-+ H - (G4) [N-Queen](https://www.acmicpc.net/problem/9663) (:star:)
-  + 동일한 문제가 2개 있기는 하지만 아마 위 문제일 듯
+
 + L - (G5) [치킨 배달](https://www.acmicpc.net/problem/15686)
 + B - [탈출](https://www.acmicpc.net/problem/3055)
 + E - [게임](https://www.acmicpc.net/problem/1103)
