@@ -10,7 +10,8 @@
 ### :evergreen_tree: 난이도 (中)
 + D - (S1) [후보 추천하기](https://www.acmicpc.net/problem/1713)
 + H - (G4) [N-Queen](https://www.acmicpc.net/problem/9663) (:star::star:)
-+ J - (G4) [스도쿠](https://www.acmicpc.net/problem/2580) (:star::star:)
++ I - (G5) [암호 만들기](https://www.acmicpc.net/problem/1759)
++ J - (G4) [스도쿠](https://www.acmicpc.net/problem/2580) (:star:)
 + L - (G5) [치킨 배달](https://www.acmicpc.net/problem/15686) 
 
 ### :fire: 난이도 (上)
@@ -18,4 +19,4 @@
 + B - (G4) [탈출](https://www.acmicpc.net/problem/3055)
 + E - (G2) [게임](https://www.acmicpc.net/problem/1103)
 + F - (G3) [교환](https://www.acmicpc.net/problem/1039) (:star:)
-+ I - (G5) [암호 만들기](https://www.acmicpc.net/problem/1759) (:star:)
+
