@@ -10,9 +10,6 @@
 
 #### 코드 해제
 <pre><code>
-#include <iostream>
-using namespace std;
-
 bool isHansu(int n) {
 	if (n < 100) return true; //iii) 100 미만의 모든 자연수는 한수입니다.
 	if (n < 1000) return (n / 100 + n % 10 == n % 100 / 10 * 2); // iv) 각 자리 수가 등차수열을 이룬다면 한수입니다.
