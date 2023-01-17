@@ -23,3 +23,8 @@ for i in range(M):
         print(1)
     else:
         print(0)
+
+"""
+for i in range(M):
+    print(1) if list_M[i] in list_N else print(0)
+"""
