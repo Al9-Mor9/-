@@ -16,4 +16,4 @@
 + A - (G3) [3425 고스택](https://www.acmicpc.net/problem/3425)
 + B - (G4) [3055 탈출](https://www.acmicpc.net/problem/3055)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25"><img src = "https://github.com/Haaarimmm.png" width="25" height="25"><img src = "https://github.com/wocjs.png" width="25" height="25"><img src = "https://github.com/sulogc.png" width="25" height="25">
 + E - (G2) [1103 게임](https://www.acmicpc.net/problem/1103)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
-+ F - (G3) [1039 교환](https://www.acmicpc.net/problem/1039) (:star:)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25"><img src = "https://github.com/sulogc.png" width="25" height="25">
++ F - (G3) [1039 교환](https://www.acmicpc.net/problem/1039) (:star:)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25"><img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/wocjs.png" width="25" height="25">
