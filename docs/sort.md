@@ -45,7 +45,7 @@
     - 1회전을 하고 나면 가장 작은 값의 자료가 맨 앞으로 오게 되므로 그 다음 회전에서 두 번째 자료를 가지고 비교한다
 - 예제
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/679ca116-267c-48f6-a74a-bb6fc7571a63/Untitled.png)
+    ![Untitled (1)](https://user-images.githubusercontent.com/90077061/214871369-b8882a63-c15c-4752-abe3-3b696a863194.png)
     
 - 코드
     
@@ -79,7 +79,7 @@
     - 두 번째 자료부터 시작하여 그 앞의 자료들과 비교하여 삽입할 위치를 지정한 후 자료를 뒤로 옮기고 직정한 자리에 자료를 삽입하여 정렬하는 알고리즘
 - 예제
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64c33237-10e8-4e9b-8f0b-80ca0d513b77/Untitled.png)
+    ![Untitled (2)](https://user-images.githubusercontent.com/90077061/214871483-9690673b-6ce9-409e-a719-7ad6fb4d6358.png)
     
 - 코드
     
