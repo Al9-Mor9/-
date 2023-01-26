@@ -8,7 +8,7 @@
     - 2회전 수행 시 끝에서 두 번째 자료까지는 정렬에서 제외
 - 예제
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b71f6ce1-759b-432b-a4de-6f4836117ddf/Untitled.png)
+    ![Untitled](https://user-images.githubusercontent.com/90077061/214869782-56ce7ec1-efa8-4221-852e-572a559ca428.png)
     
 - 코드
     
