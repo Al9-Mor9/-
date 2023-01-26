@@ -17,17 +17,17 @@ def get_code_list():
     return code_list
   
 
-def update_readme(newReadme):
+def update_readme(newReadme, profile):
     code_list = get_code_list()
     for idx in range(len(newReadme)):
         line = newReadme[idx]
         for problem_number in code_list:
             if problem_number in line:
                 for author in code_list[problem_number]:
-                    if "("+author+")" in line: 
+                    if profile[author] in line: 
                         continue
                     else :
-                        line = line.rstrip() + "(" + author + ")"
+                        line = line.rstrip() + profile[author]
                         line += '\n'
 
         newReadme[idx] = line
@@ -35,9 +35,20 @@ def update_readme(newReadme):
 
 
 if __name__ == "__main__":
+    profile = {
+        "P" : "Frog-Slayer",
+        "L" : "sulogc",
+        "H" : "wocjs",
+        "K" : "Haaarimmm",
+        "S" : "suchshin"
+    }
+    
+    for alph in profile:
+        profile[alph] = "![GitHub profile picture](https://github.com/" + profile[alph] + ".png = 20x20)"
+
     with open("./README.md", 'r', encoding='utf-8') as readme:
         newReadme = readme.readlines()
-        update_readme(newReadme)
+        update_readme(newReadme, profile)
         readme.close()
 
     with open("./README.md", 'w', encoding='utf-8') as readme:
