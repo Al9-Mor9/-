@@ -22,6 +22,11 @@ def update_readme(newReadme, profile):
     for idx in range(len(newReadme)):
         line = newReadme[idx]
         for problem_number in code_list:
+            num = ""
+            for c in problem_number:
+                if c.isdigit():
+                    num += c
+            problem_number = num
             if problem_number in line:
                 for author in code_list[problem_number]:
                     if profile[author] in line: 
