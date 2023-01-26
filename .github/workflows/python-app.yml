@@ -34,5 +34,5 @@ jobs:
         git diff
         git config --local user.email "Frog-Slayer@github.com"
         git config --local user.name "Frog-Slayer"
-        git commit -m "Automatically Update README.md file"
+        git commit --allow-empty -m "Automatically Update README.md file"
         git push
