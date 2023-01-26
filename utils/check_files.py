@@ -9,8 +9,11 @@ def make_info(code_list):
     for code in code_list:
         tup = os.path.splitext(code)
         prob = tup[0].split('_')
-        info[prob[0]].append(prob[1])
-        
+        if prob[0] in info:
+            info[prob[0]].append(prob[1])
+        else:
+            info[prob[0]] = prob[1]
+            
     return info
 
 def update_readme(readme):
