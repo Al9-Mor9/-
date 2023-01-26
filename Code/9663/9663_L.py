@@ -10,6 +10,7 @@ def DFS(depth):
             if visit[candidate]:
                 continue
             r[depth], a = candidate, 1
+            
             for pre_depth in range(depth):
                 if r[depth] == r[pre_depth] or \
                 abs(r[depth] - r[pre_depth]) == depth - pre_depth: \
