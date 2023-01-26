@@ -12,7 +12,7 @@ def make_info(code_list):
         if prob[0] in info:
             info[prob[0]].append(prob[1])
         else:
-            info[prob[0]] = prob[1]
+            info[prob[0]] = [prob[1]]
             
     return info
 
