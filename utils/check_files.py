@@ -1,7 +1,7 @@
 import os
 
 def get_code_list():
-    code_list = [file for file in os.listdir("./Code")]
+    code_list = [file for file in os.listdir("./Code/") if os.path.isfile(os.path.join("./Code", file))]
     return code_list
   
 def make_info(code_list):
