@@ -32,6 +32,6 @@ def update_readme(readme):
 
 
 if __name__ == "__main__":
-    readme = open("./README.md", 'a', encoding='utf-8')
+    readme = open("./README.md", 'a+', encoding='utf-8')
     update_readme(readme)
     readme.close()
