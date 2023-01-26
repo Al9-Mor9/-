@@ -1,37 +1,46 @@
 import os
 
 def get_code_list():
-    code_list = [file for file in os.listdir("./Code/") if os.path.isfile(os.path.join("./Code", file))]
+    code_dirs = [file for file in os.listdir("./Code/") if os.path.isdir(os.path.join("./Code", file))]
+    code_list = {}
+    for dir in code_dirs:
+        codes = [file for file in os.listdir("./Code/"+dir) if os.path.isfile(os.path.join("./Code/"+dir, file))]
+        for code in codes:
+            tup = os.path.splitext(code)
+            solution = tup[0].split('_')
+            if len(solution) == 2 and len(solution[1]) == 1:
+                if dir in code_list:
+                    code_list[dir].append(solution[1])
+                else:
+                    code_list[dir] = []
+                    code_list[dir].append(solution[1])
     return code_list
   
-def make_info(code_list):
-    info = {}
-    for code in code_list:
-        tup = os.path.splitext(code)
-        prob = tup[0].split('_')
-        if prob[0] in info:
-            info[prob[0]].append(prob[1])
-        else:
-            info[prob[0]] = ["abc"]
-            
-    return info
 
-def update_readme(readme):
+def update_readme(newReadme):
     code_list = get_code_list()
-    info = make_info(code_list)
-    while True:
-        line = readme.readline()
-        if not line : break
-        for problem_number in info.keys:
+    for idx in range(len(newReadme)):
+        line = newReadme[idx]
+        for problem_number in code_list:
             if problem_number in line:
-                for author in info[problem_number]:
-                    line = line.rstrip() + author
-                    print(line)
-                break
-    return readme
+                for author in code_list[problem_number]:
+                    if "("+author+")" in line: 
+                        continue
+                    else :
+                        line = line.rstrip() + "(" + author + ")"
+                        line += '\n'
+
+        newReadme[idx] = line
+    return newReadme
 
 
 if __name__ == "__main__":
-    readme = open("./README.md", 'a+', encoding='utf-8')
-    update_readme(readme)
-    readme.close()
+    with open("./README.md", 'r', encoding='utf-8') as readme:
+        newReadme = readme.readlines()
+        update_readme(newReadme)
+        readme.close()
+
+    with open("./README.md", 'w', encoding='utf-8') as readme:
+        newReadme = "".join(newReadme)
+        readme.write(newReadme)
+        readme.close()
