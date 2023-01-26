@@ -8,8 +8,8 @@ def make_info(code_list):
     info = {}
     for code in code_list:
         tup = os.path.splitext(code)
-        problem_number, author = tup[0].split('_')
-        info[problem_number].append(author)
+        prob = tup[0].split('_')
+        info[prob[0]].append(prob[1])
         
     return info
 
