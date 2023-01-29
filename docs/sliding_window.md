@@ -2,9 +2,8 @@
 
 - 고정된 크기의 window를 옮기는 알고리즘
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e65564e-64ae-4240-866a-0675bb146a17/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e017e82-c254-445b-8d81-ab20ec34222f/Untitled.png)
+![Untitled](./src/window.png)
+![Untitled](./src/window_1. png)
 
 - 예제 1
     
@@ -40,13 +39,13 @@ int main(){
 
 풀이 1의 경우 매 index마다 연속된 K개 정수의 합을 구하면서 최솟합을 찾습니다. 따라서 시간복잡도는 O(N*K)가 됩니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7756a17d-9049-494e-8e3f-a149bf017b36/Untitled.png)
+![Untitled](./src/naive.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b52f073c-930d-4b16-9446-2ac5d701808b/Untitled.png)
+![Untitled](./src/naive_1.png)
 
 (…)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1db0a612-6e80-4749-aee1-8754b353287c/Untitled.png)
+![Untitled](./src/naive_2.png)
 
 ```cpp
 /*
@@ -75,14 +74,12 @@ int main(){
 }
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/efe91222-fad7-439f-a8f8-fcc57fe0f878/Untitled.png)
+![Untitled](./src/slidingSol.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84b49428-b7d4-4af6-a3b6-d69c8eff4cad/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/efc9658c-2282-4f60-b19f-e8b73ca74c69/Untitled.png)
+![Untitled](./src/slidingSol_1.png)
+![Untitled](./src/slidingSol_2.png)
 
 (…)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd4f64c7-5c4e-4830-9bdf-3a136756d7c9/Untitled.png)
-
+![Untitled](./src/slidingSol_3.png)
 주황색 부분은 공통된 부분이므로 그대로 두고, 노란색은 빼고 파란색은 더해 가면서 연속된 구간의 합을 구합니다. 매번 구간 내 배열 요소들을 모두 더하면서 합을 구하는 것이 아니기 때문에 시간복잡도는 O(N)입니다.
