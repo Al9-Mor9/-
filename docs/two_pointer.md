@@ -68,3 +68,5 @@ for start in range(n):
 
 print(count)
 ```
+
+###[관련강의](https://www.youtube.com/watch?v=ttLRltNDiCo)
