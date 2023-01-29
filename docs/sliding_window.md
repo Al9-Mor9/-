@@ -3,7 +3,7 @@
 - 고정된 크기의 window를 옮기는 알고리즘
 
 ![Untitled](./src/window.png)
-![Untitled](./src/window_1. png)
+![Untitled](./src/window_1.png)
 
 - 예제 1
     
