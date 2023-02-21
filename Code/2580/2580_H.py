@@ -4,15 +4,15 @@ sys.stdin = open('text.txt', 'r')
 import sys
 input = sys.stdin.readline
 def check(x, y, a):
-    # 검색할 위치 고정
-    # 나누고 곱하면 3의 배수가 됨미다
-    nx = x // 3 * 3
-    ny = y // 3 * 3
-
     for k in range(9):
         # 가로 세로 검사
         if a == arr[x][k] or a == arr[k][y]:
             return False
+
+    # 검색할 위치 고정
+    # 나누고 곱하면 3의 배수가 됨미다
+    nx = x // 3 * 3
+    ny = y // 3 * 3
     # 박스 검사
     for l in range(3):
         for m in range(3):
@@ -32,12 +32,14 @@ def dfs(idx):
     for num in range(1, 10):
         # 넣었을 때 문제 없으면
         if check(x, y, num):
-            # 해당 빈칸에 num 넣고 dfs
-            arr[x][y] = num
-            dfs(idx + 1)
-            # 갔다 나오면 다시 0
-            arr[x][y] = 0   # 사실 이거 왜 넣는지 모르겠음
+            arr[x][y] = num # 해당 빈칸에 num 넣고 dfs
 
+            dfs(idx + 1)
+
+            arr[x][y] = 0
+            # 다른 빈칸에서 문제를 해결하고 돌아왔을 때
+            # 이전 빈칸에 넣었던 수가 아닌 새로운 수를 시도하기 위해서
+            # 이전에 넣었던 수를 초기화
 
 
 arr = [list(map(int, input().split())) for _ in range(9)]
