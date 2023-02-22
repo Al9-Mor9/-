@@ -9,7 +9,7 @@
 + D - (S1) [1713 후보 추천하기](https://www.acmicpc.net/problem/1713)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
 + H - (G4) ~~[9663 N-Queen](https://www.acmicpc.net/problem/9663) (:star::star:)~~<img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/Haaarimmm.png" width="25" height="25"><img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
 + I - (G5) [1759 암호 만들기](https://www.acmicpc.net/problem/1759)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
-+ J - (G4) [2580 스도쿠](https://www.acmicpc.net/problem/2580) (:star:)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25"><img src = "https://github.com/wocjs.png" width="25" height="25"><img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/Haaarimmm.png" width="25" height="25">
++ J - (G4) ~~[2580 스도쿠](https://www.acmicpc.net/problem/2580)~~ (:star:)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25"><img src = "https://github.com/wocjs.png" width="25" height="25"><img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/Haaarimmm.png" width="25" height="25">
 + L - (G5) [15686 치킨 배달](https://www.acmicpc.net/problem/15686)<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
 
 ### :fire: 난이도 (上)
