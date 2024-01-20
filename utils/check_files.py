@@ -39,7 +39,7 @@ if __name__ == "__main__":
         "P" : "Frog-Slayer",
         "L" : "sulogc",
         "H" : "wocjs",
-        "K" : "Haaarimmm",
+        "K" : "Summerimm",
         "S" : "suchshin"
     }
     
